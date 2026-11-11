@@ -1,0 +1,10 @@
+[package]
+name = "aitalk-sdk"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aitalk-sdk-sys = { path = "../aitalk-sdk-sys" }
+once_cell = "1.21.4"
+thiserror = "2.0.21"
+windows-sys = { version = "0.61.2", features = ["Win32_Globalization", "Win32_System_LibraryLoader"] }
